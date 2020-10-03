@@ -1,9 +1,12 @@
 ---
 --- 
 
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/utilities/spacing";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 @import "bootstrap/grid";
 
 
 @import "layout";
+@import "home";
