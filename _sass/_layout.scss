@@ -3,9 +3,54 @@ html {
     -webkit-font-smooting: antialiased;
 }
 
-body {
+#root {
+    .hero-wrapper {
+        color: #fff;
+        height: 80%;
+        background-image: url(/assets/imgs/bright-autumn-forest-radial.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+
+        >header {
+            width: 100%;
+            color: #fff;
     
-    >header {
-  
+            >* {
+                display: inline-block;
+            }
+    
+            nav {
+                font-weight: 300;
+                float: right;
+            }
+        }
+
+        .hero {
+            
+            margin: auto;
+
+            h1 {
+                font-family: 'Alex Brush', cursive;
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .info-wrapper {
+        min-height: 500px;
+        background-image: url(/assets/imgs/cortney.png);
+        background-size: 348px 425px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    >footer {
+        background-color: gray;
+        min-height: 30px;
     }
 }
