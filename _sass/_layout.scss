@@ -107,7 +107,7 @@ html {
             }
         }
 
-        .row {
+        .about-me {
             height: 100%;
         }
 
@@ -116,14 +116,12 @@ html {
 
     @include media-breakpoint-down(md) {
         .info-wrapper {
-
-  
-            background-position: 50% 15px;
-            padding-top: 480px;
+            background-position: 50% 100px;
             height: unset;
 
-            .row {
+            .about-me {
                 display: block;
+                margin-top: 440px;
             }
 
             .col {
