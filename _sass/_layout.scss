@@ -92,21 +92,21 @@ html {
     }
 
     .info-wrapper {
-        height: 500px;
-        background-image: url(/assets/imgs/cortney.png?v=1);
-        background-size: 348px 425px;
+        height: 600px;
+        background-image: url(/assets/imgs/cortney.jpg?v=1);
+        background-size: 282px 400px;
         background-repeat: no-repeat;
-        background-position: bottom center;
+        background-position: center 40%;
 
         .certs {
             display: flex;
             flex-flow: column nowrap;
             box-sizing: border-box;
-            padding: 68px 24px;
+            padding: 50px 24px;
             height: 100%;
 
             .cert {
-                padding: 18px 0;
+                padding: 8px 0;
 
                 i {
                     width: 24px;
